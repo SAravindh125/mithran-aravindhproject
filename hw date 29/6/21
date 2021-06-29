@@ -1,0 +1,168 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyPjSKByLmEprcS4OGMHhEK2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/SAravindh125/mithran-aravindhproject/blob/main/hw%20date%2029/6/21\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "jVW7EJHugTi2"
+      },
+      "source": [
+        "vhein\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tnWeLTgoEwF6",
+        "outputId": "f1b571a6-2af1-4f47-f9e5-5e585b9cfb6d"
+      },
+      "source": [
+        "#program to convert km to miles\n",
+        "#1km = 0.621 miles\n",
+        "D=int(input(\"Enter distance in km :\"))\n",
+        "print(D*0.621)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter distance in km :12\n",
+            "7.452\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zDDLkiPPbQRo",
+        "outputId": "b6b66b48-1f38-4188-98dd-11cf77657467"
+      },
+      "source": [
+        "#list\n",
+        "\n",
+        "#add name to a list - part 1 & 2\n",
+        "students = [\"Aravindh\",\"Abishek\",\"Aadi\",\"Akash\"]\n",
+        "n = str(input(\"Enter the name you wish to add :\"))\n",
+        "students.append(n)\n",
+        "print(students)\n",
+        "\n",
+        "#make a copy of this list:part 3\n",
+        "students = [\"Aravindh\", \"Abishek\", \"Aadi\", \"Akash\", \"Kavhein\"]\n",
+        "print(students)\n",
+        "\n",
+        "#no of elements:part 4\n",
+        "students.count(students)\n",
+        "\n",
+        "#insert an element;part 6 & 7\n",
+        "students.insert(0,\"Akil\")\n",
+        "students.remove(\"Abishek\")\n",
+        "print(students)\n",
+        "\n",
+        "#sort- part 8\n",
+        "students.sort()\n",
+        "print(students)\n",
+        "\n",
+        "#reverse sort part 9\n",
+        "students.reverse()\n",
+        "print(students)\n",
+        "\n",
+        "#join list;\n",
+        "no=[\"1000\",\"1001\",\"1002\",\"1003\",\"1004\"]\n",
+        "students = [\"Aravindh\", \"Abishek\", \"Aadi\", \"Akash\", \"Kavhein\"]\n",
+        "print(no,students)"
+      ],
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the name you wish to add :k\n",
+            "['Aravindh', 'Abishek', 'Aadi', 'Akash', 'k']\n",
+            "['Aravindh', 'Abishek', 'Aadi', 'Akash', 'Kavhein']\n",
+            "['Akil', 'Aravindh', 'Aadi', 'Akash', 'Kavhein']\n",
+            "['Aadi', 'Akash', 'Akil', 'Aravindh', 'Kavhein']\n",
+            "['Kavhein', 'Aravindh', 'Akil', 'Akash', 'Aadi']\n",
+            "['1000', '1001', '1002', '1003', '1004'] ['Aravindh', 'Abishek', 'Aadi', 'Akash', 'Kavhein']\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Tc55Ou0pFfyq",
+        "outputId": "92665046-a285-46f3-bec3-c77f384aae5d"
+      },
+      "source": [
+        "#program to convert celcius to fahrenheit\n",
+        "#1 celcius = 33.8° fahrenheit\n",
+        "T=int(input(\"Enter temperature in celcius :\"))\n",
+        "print(T*9/5+32)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter temperature in celcius :12\n",
+            "53.6\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QOdTYm_mHUrs"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
